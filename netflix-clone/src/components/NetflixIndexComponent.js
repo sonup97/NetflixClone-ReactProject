@@ -1,9 +1,26 @@
 import React from 'react'
+import NetflixFooterComponent from './NetflixFooterComponent'
+import NetflixHeaderComponent from './NetflixHeaderComponent'
 import './NetflixIndexComponent.css'
+import NetflixMainComponent from './NetflixMainComponent'
+import NetflixRegisterComponent from './NetflixRegisterComponent'
 export default function NetflixIndexComponent() {
   return (
     <div className='container-fluid'>
-      Index 1
+      <div className='box'>
+        <header><NetflixHeaderComponent/></header>
+        <section className='d-flex justify-content-center align-items-center'>
+          <main> 
+            <NetflixMainComponent/>
+            <NetflixRegisterComponent/>     
+          
+          </main>
+        </section>
+        <footer className='m-2 p-2'>
+        <NetflixFooterComponent/>
+        </footer>
+       
+      </div>
     </div>
   )
 }

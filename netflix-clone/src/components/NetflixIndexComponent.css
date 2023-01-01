@@ -1,5 +1,23 @@
 .container-fluid {
+    background-image: url('../../public/back-large.jpg');
+    background-size: contain;
     background-color: black;
     height: 100vmax;
+    color: white;
+    /* width: 100%; */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 
+}
+
+.box{
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100vmax;
+    /* width: 100vmax; */
+    width: auto;
+}
+section{
+    height: 400px;
+    
 }
